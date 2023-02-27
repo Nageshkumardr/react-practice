@@ -1,0 +1,46 @@
+.main{
+    height: 500px;
+    width: 400px;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid goldenrod;
+}
+input{
+    height: 95px;
+    width:390px;
+    font-size: 40px;
+    color: darkred;
+    background-color: gray;
+    
+}
+.display{
+    height: 100px;
+    width: 400px;
+}
+.frst,.snd,.trd,.frth,.fith{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+   margin-bottom: 30px;
+   
+}
+.frst{
+    margin-top: 10px;
+}
+
+.b{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    background-color:orange;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px brown;
+}
+.equals{
+    height: 50px;
+    width: 50px; 
+    font-size: 30px;
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px brown;
+}
