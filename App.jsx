@@ -1,29 +1,12 @@
-import React from  "react"
-import Nav from   "./components/Nav"
-import STYLE from "./app.module.css"
-import Hotstar from "./Hotstar"
-import Jspider from "./Jspider"
+import React from 'react'
+import Nav from "./Nav"
 
-import W3schools from "./W3schools"
-import Apple from "./Apple"
-import Linkedin from "./Linkedin"
-
-const App =()=>{
-    return(
-<div>
-   <W3schools/>
-   <br></br>
-   < Hotstar/>
-   <br />
-  < Jspider/>
-  <br />
-  <Apple/>
-  <br />
-  <Linkedin/>
-
-</div>
-
-
-    )
+const App = () => {
+  return (
+    <div>
+      <Nav data="nagesh" password="123"/>
+    </div>
+  )
 }
+
 export default App

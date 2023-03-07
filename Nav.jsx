@@ -1,12 +1,11 @@
-import React  from "react"
-const Nav=()=>{
-    return (
-        <>
-    <div>Nav</div>
-    <h1 style={{color:"red"}}>hello</h1>
-    <h2>5+4</h2>
-    <h3>{3+4}</h3>
-    </>
-    )
+import React from 'react'
+
+const Nav = (props) => {
+  return (
+    <div>
+      {props.data}   {props.password}
+    </div>
+  )
 }
+
 export default Nav
