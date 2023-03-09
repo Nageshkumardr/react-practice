@@ -1,25 +1,16 @@
 
-import Nav from "./Nav"
+import React from "react";
+import JSON from "./actorsDetails.json";
+import Actors from "./Actors";
+import "./global.css"
 
-// const App = () => {
-//   return (
-//     <div>
-//       <Nav data="nagesh" password="123"/>
-//     </div>
-//   )
-// }
 
-// export default App
-
-import React, { Component } from 'react'
-
- class App extends Component {
-  render() {
-    return (
-      <div>
-        <Nav data="Nagesh" password="456"/>
-      </div>
+const App = ()=>{
+    return(
+        <div>
+            <Actors data={JSON}/>
+        </div>
     )
-  }
 }
-export default App
+export default App;
+

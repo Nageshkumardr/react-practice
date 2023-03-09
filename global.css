@@ -1,0 +1,19 @@
+
+
+.mainBlock{
+    border: 2px solid red;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+.ParentBlock{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
