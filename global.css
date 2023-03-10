@@ -1,5 +1,5 @@
 
-
+/* 
 .mainBlock{
     border: 2px solid red;
     width: 350px;
@@ -8,12 +8,40 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+
+}
+
+.ParentBlock{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+} */
+#Parent_Block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main_Block{
+    height: 550px;
+    width: 400px;
+    border: 10px solid red;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 20px;
+   background-color: goldenrod;
+   border-radius: 40px;
+    
+
+}
+body{
+    background-color: cyan;
+    border: 5px solid b;
 }
 img{
     height: 250px;
     width: 250px;
-}
-.ParentBlock{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 10px;
+    border-radius: 50%;
 }
