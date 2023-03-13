@@ -1,18 +1,14 @@
 
-import React from "react";
-// import JSON from "./actorsDetails.json";
-// import Actors from "./Actors";
-import "./global.css"
-import Details from "./Details";
 
+import React from 'react'
+import Parent from './Parent';
 
-const App = ()=>{
-    return(
-        <div>
-            {/* <Actors data={JSON}/> */}
-            <Details/>
-        </div>
-    )
+const App = () => {
+  return (
+    <div>
+        <Parent data={{name:"Nagesh", phno:9113013653, address:"kunigal"}} />
+    </div>
+  )
 }
-export default App;
 
+export default App;
