@@ -1,0 +1,46 @@
+
+.mainBlock{
+    text-align: center;
+    margin-top: 120px;
+}
+.main{
+    margin-top: 50px;
+}
+
+
+
+.handleIncrement{
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: burlywood;
+    color: green;
+    border: 1px solid black;
+}
+.handleDecrement{
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 40px;
+    background-color:burlywood;
+    color: red;
+    border: 1px solid black;
+}
+.handleReset{
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color:burlywood;
+    color: yellow;
+    border: 1px solid black;
+    
+}
+body{
+    background-color: brown;
+}
+.heading1,.heading2{
+    font-size: 70px;
+}
