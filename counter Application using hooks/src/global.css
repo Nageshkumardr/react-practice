@@ -1,0 +1,26 @@
+.main{
+    background-color:burlywood ;
+    align-items: center;
+    text-align: center;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+.mainBlock{
+    background-color: burlywood;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+button{
+    background-color: chocolate;
+    border-radius: 20px;
+    width:200px ;
+    height: 50px;
+    border: 2px solid black;
+    margin: 20px;
+
+}
