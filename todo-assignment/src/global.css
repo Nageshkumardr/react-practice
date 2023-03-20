@@ -1,0 +1,143 @@
+.main{
+   
+   background-color: rgb(27, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+}
+body{
+    background-color:rgb(27, 25, 25);
+    
+}
+li{
+    width: 880px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 15px;
+   margin: 0px;
+   background-color: red
+   color white;
+    
+}
+#btn4{
+    height: 55px;
+    width: 150px;
+    border-top-right-radius:  20px;
+    border-bottom-right-radius:  20px;
+    background-color: green;
+    border: 5px solid green;
+    font-weight: bold;
+    font-size: 20px;
+    
+    
+}
+input{
+    width: 350px;
+    height: 50px;
+    margin-right: 10px;
+    border-top-left-radius:  20px;
+    border-bottom-left-radius:  20px;
+    border: 2px solid green;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+  
+}
+.itemlist{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 0.2 solid red;
+font-size: 20px;
+font-weight: bold;
+background-color:black;
+}
+.container{
+    background-color: black;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+.mainDivision{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+    background-color:black;
+}
+.nav-container{
+    display: flex;
+   
+    height: 80px;
+    font-size: 10px;
+    background-color:rgb(27, 25, 25);
+    text-align: center;
+    align-items: center;
+    color: white;
+
+}
+.one{
+  margin-left: 0px;
+}
+.two{
+    margin-left: 500px;
+}
+.three{
+    margin-left: 20px;
+    margin-right: 450px;
+}
+.image{
+    margin-right: 40px;
+    margin-left: 70px;
+}
+#one{
+    width: 60px;
+    height: 30px;
+}
+#buttonsContainer{
+    display: flex;
+    justify-content: center;
+}
+#btn1{
+width: 100px;
+color:cxc ;
+background-color:blue ;
+border: 2px solid blue;
+border-top-left-radius:30px;
+border-bottom-left-radius:30px;
+height: 45px;
+margin-right: 10px;
+}
+#btn2{
+   width: 150px; 
+   height: 45px;
+   color: yellow;
+   font-weight: bold;
+   font-size: 20px;
+   background-color: black;
+   margin-right: 10px;
+   border: 2px solid yellow;
+   
+}
+#btn3{
+   width: 150px; 
+   height: 45px;
+   border-top-right-radius:30px;
+   border-bottom-right-radius:30px;
+   color: orange;
+   border: 2px solid orange;
+   background-color: black;
+}
+ol{
+    background-color: rgba(2, 2, 2, 0.922);
+}
